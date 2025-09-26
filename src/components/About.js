@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import otlum from "../assets/otlum.jpg"
+import otlum from "../assets/franz2x2.png"
 
 function About() {
   return (
@@ -8,7 +8,7 @@ function About() {
       <Container>
         <Row>
           <Col md={6}>
-            <img src={otlum} alt="about" className="img-fluid rounded" style={{ width: "300px", height: "450px" }} />
+            <img src={otlum} alt="about" className="img-fluid rounded" style={{ width: "450px", height: "450px" }} />
           </Col>
           <Col md={6}>
             <h2>About Me</h2>
